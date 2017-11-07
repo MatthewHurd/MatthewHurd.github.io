@@ -70,6 +70,19 @@
             }
             
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("button").click(function(){
+                  $("ul.professional-interests").toggle();
+                    
+              });
+              //var 
+              //if(button.text() === "Show") {
+              }
+          });
+          
+        </script>
     </head>
     <body>
         <div id="all-contents"> 
@@ -95,10 +108,23 @@
                             <section class="interests">
                             <li>Yu-gi-oh</li>
                             <li>Cyber</li>
-                            <li>Coding</li>
+                            <li>Pokémon</li>
                         </ul>
                     </section>
                     </p>
+                </div>
+            </main>
+            <main>
+                <div class="content">
+                    <header>Professional Interests</header>
+                    <section class="interests">
+                        <button>Hide</button>
+                        <ul class="professional-interests">
+                            <li>Computer Programming</li>
+                            <li>Creating Games</li>
+                            <li>Creating Websites</li>
+                        </ul>
+                    </section>
                 </div>
             </main>
         </div>
